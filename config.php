@@ -2,7 +2,7 @@
 
 use ferrite\config\Config;
 
-Config::addValue('db_hostname', '');
-Config::addValue('db_database', '');
-Config::addValue('db_username', '');
-Config::addValue('db_password', '');
+Config::setValue('db_hostname', '');
+Config::setValue('db_database', '');
+Config::setValue('db_username', '');
+Config::setValue('db_password', '');
